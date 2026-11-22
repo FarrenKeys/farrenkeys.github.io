@@ -1,0 +1,13 @@
+{
+  // Static portfolio site. Assets are served from public/.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "farren-keys-portfolio",
+  "compatibility_date": "2025-01-01",
+  "assets": {
+    "directory": "./public",
+    "not_found_handling": "single-page-application"
+  },
+  "observability": {
+    "enabled": true
+  }
+}
